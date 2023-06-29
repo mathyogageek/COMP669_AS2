@@ -1,7 +1,7 @@
 var continueInput = true;
 
 while (continueInput) {
-  var score = parseInt(prompt("Enter your score (between 1 and 100):"));
+  var score = parseInt(prompt("Enter score (between 1 and 100):"));
 
   if (score >= 1 && score <= 100) {
     if (score >= 90 && score <= 100) {
